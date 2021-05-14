@@ -15,7 +15,7 @@ TrackkFitt is a Macronutrient tracking application That calculates your caloric 
 
 | ReqID | Requirement | Test Procedure | Test Result |
 |:--|:--|:--:|:--|
-| 1. | the system shall correctly take users login and password credentials | User Login |
+| 1. | the system shall correctly take users login and password credentials | User Login | Pass |
 | 1.1| The system shall present a GUI for the login credentials to log in users.
 | 1.2 | The system shall provide a username and password bar followed by a sign in button to connect to online database to store user’s profile. 
 | 1.3 | The system shall save the users login data to a secured database.
