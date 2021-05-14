@@ -20,10 +20,10 @@ TrackkFitt is a Macronutrient tracking application That calculates your caloric 
 | 1.2 | The system shall provide a username and password bar followed by a sign in button to connect to online database to store user’s profile.  | Identity | Pass |
 | 1.3 | The system shall save the users login data to a secured database. | Identity | Pass |
 | 2. | The system shall build a default profile at time of signup. | User Profile | Fail |
-| 2.1 | the system shall display a default profile at time of login. | Fail |
-| 2.2 | the systems shall allocate memory for Profile stats that the user can add as needed. | Fail |
-| 2.3 | The system shall provide a GUI with a name, Age, Gender, Height, Weight, Goal for users to input their personal goal information
-| 2.4 | The system shall store information in a database. | Fail |
+| 2.1 | the system shall display a default profile at time of login.| Profile | Fail |
+| 2.2 | the systems shall allocate memory for Profile stats that the user can add as needed.| Profile | Pass |
+| 2.3 | The system shall provide a GUI with a name, Age, Gender, Height, Weight, Goal for users to input their personal goal information | Profile | Fail |
+| 2.4 | The system shall store information in a database.| Profile Table | Pass |
 | 3. | The system shall calculate the users basal metabolic rate using a calculator function. | Algorithm | Fail |
 | 3.1 | The system shall take the users age height and weight profile information and use an algorithm (Harris benedict equation) to calculate the user’s Basic metabolic rate and store it to their profile stats.  | Algorithm | Fail |
 | 3.2 | The system shall provide GUI with search bar connected to database for users to select and store foods into their profile as needed. | Database Access | Pass |
