@@ -1,0 +1,37 @@
+ Project Ideas       Bradley Stephenson    January 12th 2021
+
+Idea 1:  Macronutrient Tracking Application
+Login Screen ask for credentials Username and Password to access personal account
+Takes users Data body composition data ( Height, Weight, Age, Gender) and
+uses a formula(Harris Benedict Equation) to define Basic Metabolic Rate.
+set calorie ratios at 40% protein 40% carbs 20% fats based on their total calorie number.
+option to plug in food in GUI to track their daily intake( Database for different foods?)
+A file system to track meal 1-6 
+Databases will need to be accessed for different foods, personal account. 
+
+
+
+
+Idea 2: Training Workout Application
+
+login screen with username and password to access personal account
+Puts in fitness goals (Build muscle, lose weight, both etc..) and provides ability to input their basic info 
+to build personal profile. includes a different number of workouts with instructional guidance on how to perform properly. 
+gives option to plug in their own owrkouts or search from a collection of workouts pre loaded from database. 
+log within personal profile to track progress and previous workouts
+datatbases will be needed to access workouts and perosnal account
+i
+
+
+
+
+
+Idea 3: Sleep tracking Application
+
+Login Screen ask for credentials Username and Password to access personal account
+GUI interface for user to input personal information for profile (weight, height, age ,sleep goals)
+tracks to time they are asleep and reminds them on set times to prepare to get ready for sleep for improvement of sleep
+tracks a diary of past nights of sleep
+alarm clock capability wihtin application
+includes some informational resources to read to improve their sleep quality preloaded into application with links 
+database access for personal account 

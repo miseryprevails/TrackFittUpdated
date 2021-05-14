@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<!-- Range Slider CSS -->
+	<link rel="stylesheet" href="css/components/ion.rangeslider.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+
+	<!-- Document Title
+	============================================= -->
+	<title>Calorie Calculator - Forms | Canvas</title>
+
+	<style>
+		.form-group > label.error {
+			display: block !important;
+			text-transform: none;
+		}
+
+		.form-group input.valid ~ label.error,
+		.form-group input[type="text"] ~ label.error,
+		.form-group input[type="email"] ~ label.error,
+		.form-group input[type="number"] ~ label.error,
+		.form-group select ~ label.error { display: none !important; }
+
+		.calories-wrap {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		#fitness-form .btn-outline-dark:not(.disabled):not(.active):not(:hover) {
+			color: #444;
+			background-color: #FFF;
+			border-color: #CED4DA;
+		}
+
+	</style>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header">
+			<div id="header-wrap">
+				<div class="container">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo">
+							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div class="header-misc">
+
+							<!-- Top Search
+							============================================= -->
+							<div id="top-search" class="header-misc-icon">
+								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+							</div><!-- #top-search end -->
+
+							<!-- Top Cart
+							============================================= -->
+							
+							<!-- #top-cart end -->
+
+						</div>
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container">
+								<li class="menu-item">
+									<a class="menu-link" href="index.html"><div>Home</div></a>
+									<ul class="sub-menu-container">
+										<li class="menu-item">
+											<a class="menu-link" href="intro.html#section-niche"><div>Niche Demos</div></a>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="intro.html#section-onepage"><div>One-Page Demos</div></a>
+										</li>
+										
+											
+										</li>
+										<li class="menu-item">
+											
+										<li class="menu-item">
+											<a class="menu-link" href="landing.html"><div>Home - Landing Page</div></a>
+											<ul class="sub-menu-container">
+												<li class="menu-item">
+													<a class="menu-link" href="landing.html"><div>Landing Page - Layout 1</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="landing-2.html"><div>Landing Page - Layout 2</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="landing-3.html"><div>Landing Page - Layout 3</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="landing-4.html"><div>Landing Page - Layout 4</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="landing-5.html"><div>Landing Page - Layout 5</div></a>
+												</li>
+											</ul>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="index-fullscreen-image.html"><div>Home - Full Screen</div></a>
+											<ul class="sub-menu-container">
+												<li class="menu-item">
+													<a class="menu-link" href="index-fullscreen-image.html"><div>Full Screen - Image</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="index-fullscreen-slider.html"><div>Full Screen - Slider</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="index-fullscreen-video.html"><div>Full Screen - Video</div></a>
+												</li>
+											</ul>
+										</li>
+										<li class="menu-item">
+											<a class="menu-link" href="index-onepage.html"><div>Home - One Page</div></a>
+											<ul class="sub-menu-container">
+												<li class="menu-item">
+													<a class="menu-link" href="index-onepage.html"><div>One Page - Default</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="index-onepage-2.html"><div>One Page - Submenu</div></a>
+												</li>
+												<li class="menu-item">
+													<a class="menu-link" href="index-onepage-3.html"><div>One Page - Dots Style</div></a>
+												</li>
+											</ul>
+										
+														</li>
+														<li class="menu-item">
+															<a class="menu-link" href="index-app-showcase.html"><div>App Showcase</div></a>
+														</li>
+														<li class="menu-item">
+															<a class="menu-link" href="index-boxed.html"><div>Boxed Layout</div></a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</li>
+								
+									
+									
+										
+
+													
+												
+
+
+
+						</nav><!-- #primary-menu end -->
+
+						<form class="top-search-form" action="search.html" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
+						</form>
+
+					</div>
+				</div>
+			</div>
+			<div class="header-wrap-clone"></div>
+		</header><!-- #header end -->
+
+		<!-- Page Title
+		============================================= -->
+		<section id="page-title">
+
+			<div class="container clearfix">
+				<h1>Calorie Calculator</h1>
+				<span>Forms Widget</span>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#">Home</a></li>
+					<li class="breadcrumb-item"><a href="#">Widgets</a></li>
+					<li class="breadcrumb-item active" aria-current="page">Fitness Form</li>
+				</ol>
+			</div>
+
+		</section><!-- #page-title end -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+
+					<div class="form-widget">
+
+						<div class="form-result"></div>
+
+						<div class="row shadow bg-light border">
+
+							<div class="col-lg-4 dark" style="background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.2)), url('https://images.unsplash.com/photo-1511809870860-4d2806eb1908?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80') center center / cover; min-height: 400px;">
+								<h3 class="center mt-5">Fitness Quotes</h3>
+								<div class="calories-wrap center w-100 px-2">
+									<span class="text-uppercase mb-0 ls2">Loosing Fat</span>
+									<h2 id="calories-count" class="calories display-3 mb-2 heading-block border-bottom-0 font-weight-semibold font-body py-2"></h2>
+									<span class="text-uppercase h6 ls3">Estimated Calories</span>
+								</div>
+								<small class="center m-0 position-absolute" style="bottom: 12px;">Metric Units</small>
+							</div>
+
+							<div class="col-lg-8 p-5">
+								<form class="row mb-0" id="fitness-form" action="include/form.php" method="post" enctype="multipart/form-data">
+									<div class="form-process">
+										<div class="css3-spinner">
+											<div class="css3-spinner-scaler"></div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-name">Name:</label>
+											</div>
+											<div class="col-sm-10">
+												<input type="text" name="fitness-form-name" id="fitness-form-name" class="form-control required" value="" placeholder="Enter your Full Name">
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-email">Email:</label>
+											</div>
+											<div class="col-sm-10">
+												<input type="email" name="fitness-form-email" id="fitness-form-email" class="form-control required" value="" placeholder="Enter your Email">
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-phone">Phone:</label>
+											</div>
+											<div class="col-sm-10">
+												<input type="text" name="fitness-form-phone" id="fitness-form-phone" class="form-control required" value="" placeholder="Your Contact Number">
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-phone">You Goals:</label>
+											</div>
+											<div class="col-sm-10">
+												<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+													<label class="btn btn-outline-dark font-body ls0 nott">
+														<input type="radio" class="required form-control" name="fitness-form-goal" id="fitness-form-weight-loss" value="Weight Loss">Weight Loss
+													</label>
+													<label class="btn btn-outline-dark font-body ls0 nott">
+														<input type="radio" class="required form-control" name="fitness-form-goal" id="fitness-form-mass-gain" value="Mass Gain">Mass Gain
+													</label>
+													<label class="btn btn-outline-dark font-body ls0 nott">
+														<input type="radio" class="required form-control" name="fitness-form-goal" id="fitness-form-athletic-body" value="Athletic Body">Athletic Body
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-sex">Gender:</label>
+											</div>
+											<div class="col-sm-6">
+												<div class="btn-group btn-group-toggle d-flex" data-toggle="buttons">
+													<label class="btn btn-outline-dark font-body ls0 nott">
+														<input type="radio" class="required form-control" name="fitness-form-sex" id="fitness-form-male" value="Male">Male
+													</label>
+													<label class="btn btn-outline-dark font-body ls0 nott">
+														<input type="radio" class="required form-control" name="fitness-form-sex" id="fitness-form-male" value="Female">Female
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-age">Age:</label>
+											</div>
+											<div class="col-sm-5">
+												<input type="number" min="10" max="50" name="fitness-form-age" id="fitness-form-age" class="form-control required" value="" placeholder="Enter your Age">
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-weight">Weight:</label>
+											</div>
+											<div class="col-sm-5">
+												<div class="input-group">
+													<input type="number" max="140" name="fitness-form-weight" id="fitness-form-weight" class="form-control required" value="" placeholder="Enter your Weight">
+													<div class="input-group-append">
+														<span class="input-group-text bg-white">kgs</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-height">Height:</label>
+											</div>
+											<div class="col-sm-5">
+												<div class="input-group">
+													<input type="number" maxlength="3" name="fitness-form-height" id="fitness-form-height" class="form-control required" value="" placeholder="Enter your height">
+													<div class="input-group-append">
+														<span class="input-group-text bg-white">cm</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 form-group mt-3">
+										<div class="row">
+											<div class="col-sm-2 col-form-label">
+												<label for="fitness-form-activity">Day Acivity:</label>
+											</div>
+											<div class="col-sm-10">
+												<input class="input-range-slider activity-range-slider required" name="fitness-form-activity" id="fitness-form-activity" />
+											</div>
+										</div>
+									</div>
+									<div class="col-12 d-none">
+										<input type="text" id="fitness-form-botcheck" name="fitness-form-botcheck" value="" />
+									</div>
+									<div class="col-12 d-flex justify-content-end align-items-center">
+										<button type="button" id="calories-trigger" class="btn btn-secondary">Calculate</button>
+										<button type="submit" name="fitness-form-submit" class="btn btn-success ml-2">Submit Quote</button>
+									</div>
+
+									<input type="hidden" name="prefix" value="fitness-form-">
+									<input type="hidden" name="subject" value="New Fitness Received">
+									<input type="hidden" id="fitness-form-calories" name="fitness-form-calories" value="">
+								</form>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+		</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row col-mb-50">
+						<div class="col-lg-8">
+
+							<div class="row col-mb-50">
+								<div class="col-md-4">
+
+									<div class="widget clearfix">
+
+										
+
+									</div>
+
+								</div>
+
+								<div class="col-md-4">
+
+									<div class="widget widget_links clearfix">
+
+										
+										
+									</div>
+
+								</div>
+
+								<div class="col-md-4">
+
+									<div class="widget clearfix">
+										
+						<div class="col-lg-4">
+
+							
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+								
+
+								<div class="col-md-3 col-lg-12">
+									<div class="widget clearfix" style="margin-bottom: -20px;">
+
+										<div class="row">
+											<div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+												<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
+													<i class="icon-facebook"></i>
+													<i class="icon-facebook"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+											</div>
+											<div class="col-6 col-md-12 col-lg-6 clearfix">
+												<a href="#" class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
+													<i class="icon-rss"></i>
+													<i class="icon-rss"></i>
+												</a>
+												<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+				<div class="container">
+
+					<div class="row col-mb-30">
+
+						<div class="col-md-6 text-center text-md-left">
+							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
+							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+						</div>
+
+						<div class="col-md-6 text-center text-md-right">
+							<div class="d-flex justify-content-center justify-content-md-end">
+								<a href="#" class="social-icon si-small si-borderless si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-gplus">
+									<i class="icon-gplus"></i>
+									<i class="icon-gplus"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-pinterest">
+									<i class="icon-pinterest"></i>
+									<i class="icon-pinterest"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-vimeo">
+									<i class="icon-vimeo"></i>
+									<i class="icon-vimeo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-github">
+									<i class="icon-github"></i>
+									<i class="icon-github"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-yahoo">
+									<i class="icon-yahoo"></i>
+									<i class="icon-yahoo"></i>
+								</a>
+
+								<a href="#" class="social-icon si-small si-borderless si-linkedin">
+									<i class="icon-linkedin"></i>
+									<i class="icon-linkedin"></i>
+								</a>
+							</div>
+
+							<div class="clear"></div>
+
+							<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
+						</div>
+
+					</div>
+
+				</div>
+			</div><!-- #copyrights end -->
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Range Slider Plugin -->
+	<script src="js/components/rangeslider.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery(document).ready( function(){
+			var totalAge = '',
+				totalWeight = '',
+				totalHeight = '',
+				totalActivity = '',
+				elementAge = $("#fitness-form-age"),
+				elementWeight = $("#fitness-form-weight"),
+				elementHeight = $("#fitness-form-height"),
+				elementActivity = $("#fitness-form-activity"),
+				elementCalories = $("#fitness-form-calories"),
+				caloriesCount = $("#calories-count");
+
+			elementAge.on( 'change', function(){
+				totalAge = $(this).prop('value');
+				calculateCalories( totalAge, totalWeight, totalHeight, totalActivity );
+			});
+
+			elementWeight.on( 'change', function(){
+				totalWeight = $(this).prop('value');
+				calculateCalories( totalAge, totalWeight, totalHeight, totalActivity );
+			});
+
+			elementHeight.on( 'change', function(){
+				totalHeight = $(this).prop('value');
+				calculateCalories( totalAge, totalWeight, totalHeight, totalActivity );
+			});
+
+			elementActivity.ionRangeSlider({
+				min: 0,
+				max: 7,
+				from: 0,
+				step: 1,
+				postfix: " days/Week",
+				onStart: function(data){
+					totalActivity = data.from;
+				}
+			});
+
+			elementActivity.on( 'change', function(){
+				totalActivity = $(this).prop('value');
+				calculateCalories( totalAge, totalWeight, totalHeight, totalActivity );
+			});
+
+			calculateCalories( totalAge, totalWeight, totalHeight, totalActivity );
+
+			function calculateCalories( age, weight, height, activity ) {
+				var caloriesValue = 66 + ( 13.75 * Number(weight) ) + ( 5 * Number(height) ) - ( 6.75 * Number(age) ) + ( 200 * Number(activity) );
+				if( caloriesCount.is(':empty') ) {
+					caloriesCount.html( '0.0' );
+				}
+				jQuery("#calories-trigger").on( 'click', function(e){
+					caloriesCount.html( caloriesValue );
+					elementCalories.val( caloriesValue ).change();
+					e.preventDefault();
+				});
+			}
+		});
+	</script>
+
+</body>
+</html>
