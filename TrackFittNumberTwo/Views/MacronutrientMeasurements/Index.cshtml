@@ -1,0 +1,68 @@
+﻿@model IEnumerable<TrackFittNumberTwo.Models.MacronutrientMeasurement>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="color:white;">Create A Food</h1>
+
+<p>
+    <a style="color:white" asp-action="Create" class="btn btn-dark">Create a New Food </a>
+    
+
+</p>
+<table style="color:white" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FoodName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carbs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Protein)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sugar)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FoodName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calories)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fat)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Carbs)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Protein)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sugar)
+                </td>
+                <td>
+                     <a style="color:white" asp-action="Edit" asp-route-id="@item.FoodId" class="btn btn-dark">Edit</a>
+                     <a style="color:white" asp-action="Details" asp-route-id="@item.FoodId" class="btn btn-dark">Details</a>
+                     <a style="color:white" asp-action="Delete" asp-route-id="@item.FoodId" class="btn btn-dark">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

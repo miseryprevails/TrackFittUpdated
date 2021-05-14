@@ -1,0 +1,71 @@
+﻿@model IEnumerable<TrackFittNumberTwo.Models.AccountInfo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 style="color:white"> My Profile</h1>
+
+<p>
+    <a style="color:white" asp-action="Create" class="btn btn-dark">Create A Profile </a>
+</p>
+<table style="color:white" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Height)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Weight)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                <a style="color:white" asp-action="Edit"class="btn btn-dark" asp-route-id="@item.UserId">Edit</a> |
+                <a style="color:white" asp-action="Details"class="btn btn-dark" asp-route-id="@item.UserId">Details</a> |
+                <a style="color:white" asp-action="Delete"class="btn btn-dark" asp-route-id="@item.UserId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

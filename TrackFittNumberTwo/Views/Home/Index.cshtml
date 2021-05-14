@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model AccountInfo
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div>
+        
+        
+    </div>
+    <div class="card text-white bg-dark mb-3" style="max-width: 72rem;">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <button class="btn btn-dark"> My Activity</button>
+                </li>
+                <li class="nav-item">
+                    <a href='@Url.Action("Index", "AccountInfoes")' class="btn btn-dark">Profile</a><br />
+                </li>
+                <li class="nav-item">
+                    <a href='@Url.Action("Calculator", "CalorieCalculation")' class="btn btn-dark">Calorie Calculator</a><br />
+                </li>
+                <li class="nav-item">
+                    <a href='@Url.Action("Index", "MacronutrientMeasurements")' class="btn btn-dark">Add A Food</a>
+                </li>
+                <li class="nav-item">
+                    <a href='@Url.Action("Index", "Master_Food")' class="btn btn-dark">Search For Food</a>
+                </li>
+            </ul>
+        </div>
+        <img class"card-img-left" src="" />
+        <div class="card-body">
+            <div class="bg-transparent"></div>
+            <h5 class="card-title">Total Intake</h5>
+            <h6 class="card-subtitle mb-2 text-muted">My Activity</h6>
+            <table class="table text-white">
+                <thead>
+                    <tr>
+                        <th scope="col">Meal </th>
+                        <th scope="col">Carbs</th>
+                        <th scope="col">Fats</th>
+                        <th scope="col">Protein</th>
+                        <th scope="col">Calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>                    
+                    <tr>
+                        <th scope="row">Totals</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+            <p class="card-text">A food table displaying the users food tracked so far. </p>
+        </div>
+    </div>
+       
+</body>
+
+</html>

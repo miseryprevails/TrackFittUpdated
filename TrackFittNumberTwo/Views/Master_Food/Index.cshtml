@@ -1,0 +1,70 @@
+﻿@model IEnumerable<TrackFittNumberTwo.Models.Master_Food>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Search">Search and Add New Food</a>
+</p>
+<form asp-action="Filter" method="post">
+    <input type="text" name="filterBy" id="filterBy" placeholder="Search" />
+    <input type="submit" value="Search" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Food_Group)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calories)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fat_g)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Protein_g)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carbohydrate_g)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Food_Group)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calories)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fat_g)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Protein_g)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carbohydrate_g)
+            </td>
+            <td>
+                
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Add" asp-route-id="@item.ID">Add To Meal</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
