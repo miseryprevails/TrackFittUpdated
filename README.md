@@ -2,12 +2,12 @@
 TrackkFitt is a Macronutrient tracking application That calculates your caloric needs and keeps a diary for you to monitor daily food intake. 
 
 # Table of Contents
-* [Requirements & Test Results](https://github.com/miseryprevails/TrackFitt#requirementstest-result)
-* [User Stories](https://github.com/miseryprevails/TrackFitt#user-stories)
-* [Entity Relationship Diagram](https://github.com/miseryprevails/TrackFitt#entity-relationship-diagram)
-* [UML Diagram](https://github.com/miseryprevails/TrackFitt#uml-diagram)
-* [Wireframe](https://github.com/miseryprevails/TrackFitt#wireframe)
-* [Prototype](https://github.com/miseryprevails/TrackFitt#prototype)
+* [Requirements & Test Results](https://github.com/miseryprevails/TrackFittUpdated#requirementstest-result)
+* [User Stories](https://github.com/miseryprevails/TrackFittUpdated#TrackFitt#user-stories)
+* [Entity Relationship Diagram](https://github.com/miseryprevails/TrackFittUpdated#entity-relationship-diagram)
+* [UML Diagram](https://github.com/miseryprevails/TrackFittUpdated#uml-diagram)
+* [Wireframe](https://github.com/miseryprevails/TrackFittUpdated#wireframe)
+* [Prototype](https://github.com/miseryprevails/TrackFittUpdated#prototype)
 
 
 
