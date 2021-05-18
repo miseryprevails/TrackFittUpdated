@@ -121,7 +121,7 @@ Here is the page where based on your stats put in, you will get a number back wh
 ## Application Walkthrough
 ![Login](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/LOGIN.PNG)
 
-Here is the Login Screen using Microsoft Identity.
+Here is the Login Screen using Microsoft Identity. I applied a bootstrap card because the font was hard to read. 
 
 ![Home Display](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/HomeScreenDisplay.PNG)
 Here is the home screen display where you have multiple tabs to choose from. My Activity is this cuurent page, Profile will take you to a profile page,
