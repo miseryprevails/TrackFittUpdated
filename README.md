@@ -10,32 +10,6 @@ TrackkFitt is a Macronutrient tracking application That calculates your caloric 
 * [Prototype](https://github.com/miseryprevails/TrackFittUpdated#prototype)
 
 
-
-## Requirements/Test Result
-
-| ReqID | Requirement | Test Procedure | Test Result |
-|:--|:--|:--:|:--|
-| 1. | the system shall correctly take users login and password credentials | User Login | Pass |
-| 1.1| The system shall present a GUI for the login credentials to log in users. | User Login | Pass|
-| 1.2 | The system shall provide a username and password bar followed by a sign in button to connect to online database to store user’s profile.  | Identity | Pass |
-| 1.3 | The system shall save the users login data to a secured database. | Identity | Pass |
-| 2. | The system shall build a default profile at time of signup. | User Profile | Fail |
-| 2.1 | the system shall display a default profile at time of login.| Profile | Fail |
-| 2.2 | the systems shall allocate memory for Profile stats that the user can add as needed.| Profile | Pass |
-| 2.3 | The system shall provide a GUI with a name, Age, Gender, Height, Weight, Goal for users to input their personal goal information | Profile | Fail |
-| 2.4 | The system shall store information in a database.| Profile Table | Pass |
-| 3. | The system shall calculate the users basal metabolic rate using a calculator function. | Algorithm | Fail |
-| 3.1 | The system shall take the users age height and weight profile information and use an algorithm (Harris benedict equation) to calculate the user’s Basic metabolic rate and store it to their profile stats.  | Algorithm | Fail |
-| 3.2 | The system shall provide GUI with search bar connected to database for users to select and store foods into their profile as needed. | Database Access | Pass |
-| 3.3 | The system shall display a GUI for users to search and easily navigate through data(Food) to store into their daily table, as necessary. | Website Layout | Pass |
-| 4. | The system shall provide users with an editing function to change serving sizes of selected foods.| Create A Food | Fail |
-| 4.1 | The system shall provide a function to click on the food name, to bring up the portion size and change as needed. | Search For Food | Fail
-| 5. | The systems shall have set time to reset users daily table data each day. | Data Reset | Fail |
-| 5.1 | The system shall reset time at 12:00 AM and run till 11:59 AM to represent a full day of data. | Data Reset | Fail
-| 6. | The system shall store previous data for users to access older food logs. | Memory Data | Fail |
-| 6.1 | The system shall store older Data and data changes each day(Temporal Tables?) in memory for users to access older daily food logs | Data Storage | Fail |
-
-
 ### User Stories
 As a Fitness Marketing Company 
 I need/want a functional system that creates a user profile, and a Macronutrient tracking log capability linked to that profile 
@@ -99,7 +73,32 @@ Next box(to the right) is a basic profile with the option to add image in the to
 The bottom box is a serach GUI for foods, the text box is where food names will be typed by user, followed by a search button 
 below. to the right will display results where user can select the foods they need.
 
+## Requirements/Test Result
 
+| ReqID | Requirement | Test Procedure | Test Result |
+|:--|:--|:--:|:--|
+| 1. | the system shall correctly take users login and password credentials | User Login | Pass |
+| 1.1| The system shall present a GUI for the login credentials to log in users. | User Login | Pass|
+| 1.2 | The system shall provide a username and password bar followed by a sign in button to connect to online database to store user’s profile.  | Identity | Pass |
+| 1.3 | The system shall save the users login data to a secured database. | Identity | Pass |
+| 2 | the system shall display a default profile at time of login.| Profile | Not Implemented |
+| 2.1 | the systems shall allocate memory for Profile stats that the user can add as needed.| Profile | Pass |
+| 2.2 | The system shall provide a GUI with a name, Age, Gender, Height, Weight, Goal for users to input their personal goal information | Profile | Not Implemented |
+| 2.3 | The system shall store information in a database.| Profile Table | Pass |
+| 3. | The system shall calculate the users basal metabolic rate using a calculator function. | Algorithm | Not Implemented |
+| 3.1 | The system shall take the users age height and weight profile information and use an algorithm (Harris benedict equation) to calculate the user’s Basic metabolic rate and store it to their profile stats.  | Algorithm | Not Implemented |
+| 3.2 | The system shall provide GUI with search bar connected to database for users to select and store foods into their profile as needed. | Database Access | Pass |
+| 3.3 | The system shall display a GUI for users to search and easily navigate through data(Food) to store into their daily table, as necessary. | Website Layout | Pass |
+| 4. | The system shall provide users with an editing function to change serving sizes of selected foods.| Create A Food | Not Implemented |
+| 4.1 | The system shall provide a function to click on the food name, to bring up the portion size and change as needed. | Search For Food | Not Implemented |
+| 5. | The systems shall have set time to reset users daily table data each day. | Data Reset | Not Implemented |
+| 5.1 | The system shall reset time at 12:00 AM and run till 11:59 AM to represent a full day of data. | Data Reset | Not Implemented |
+| 6. | The system shall store previous data for users to access older food logs. | Memory Data | Not Implemented |
+| 6.1 | The system shall store older Data and data changes each day(Temporal Tables?) in memory for users to access older daily food logs | Data Storage | Not Implemented |
+
+## Test Metrics
+
+8 out of 18 requirements are passing which is 44 %. Majority of non passing requirements are due to not implementing them inside the project yet. 
 
 
 ###### Prototype
