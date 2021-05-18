@@ -54,16 +54,16 @@ So that users can track and edit their daily food intakes tailored to their spec
 
 
 
-##### Entity Relationship Diagram
+## Entity Relationship Diagram
 ![Entity Realtionship](https://github.com/miseryprevails/TrackFittUpdated/blob/master/EntityRelationship.PNG)
 
 
-##### UML Diagram
+## UML Diagram
 ![UML Diagram](https://github.com/miseryprevails/TrackFittUpdated/blob/master/UML%20diagram.PNG)
 
 
 
-###### WireFrame
+## WireFrame
 ![Wireframe Layout](https://github.com/miseryprevails/TrackFittUpdated/blob/master/WireFrame.jpg)
 First GUI represents the the start page and login screen.
 
