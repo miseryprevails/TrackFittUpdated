@@ -101,7 +101,7 @@ below. to the right will display results where user can select the foods they ne
 8 out of 18 requirements are passing which is 44 %. Majority of non passing requirements are due to not implementing them inside the project yet. 
 
 
-###### Prototype
+## Prototype
 ![Log In Screen](https://github.com/miseryprevails/TrackFittUpdated/blob/master/Prototype%20HTML%20%26%20Pictures/LogInScreen.jpg)
 
 This the Log In Screen. Here you have a username and password box to enter credentials. you also have the forgot password option to retrieve password, and below you can click new signup to create your new profile below.
