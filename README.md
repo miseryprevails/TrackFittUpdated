@@ -118,12 +118,34 @@ Here is the profile screen once you have logged in. you have your feed which sho
 Here is the page where based on your stats put in, you will get a number back which will determine your total calorie intake needs based on goals selected. you can also sumbit your day activity at the bottom in the day activity bar.
 
 ## Application Walkthrough
+![Login](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/LOGIN.PNG)
 
+Here is the Login Screen using Microsoft Identity.
+
+![Home Display](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/HomeScreenDisplay.PNG)
+Here is the home screen display where you have multiple tabs to choose from. My Activity is this cuurent page, Profile will take you to a profile page,
+Calorie Calculator was not implemented, however it will rake you to a view to put in your height, weight, age, gender, activity level, to calculate your
+caloric intake. Add a Food allows you to add a new food to the table. this functionality still needs to be tied into the master food database so it adds it with the rest of the preloaded foods. Search for food tab will take you to a page where you can search the master food table for pre loaded foods and add them to your diary. this page is very slow to load and still has some bugs. 
+
+![Profile](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/Profile.PNG)
+
+![Create Food](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/CreateYourOwnFood.PNG)
+
+![Search Food](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/SearchThePreLoadedFoodTable.PNG)
 
 
 ## Final Notes
 
+### What was done right
 
+
+### What was done wrong
+
+
+### Where I was lucky
+
+
+### Changes I would have made
 
 
 
