@@ -117,6 +117,11 @@ Here is the profile screen once you have logged in. you have your feed which sho
 
 Here is the page where based on your stats put in, you will get a number back which will determine your total calorie intake needs based on goals selected. you can also sumbit your day activity at the bottom in the day activity bar.
 
+## Application Walkthrough
+
+
+
+## Final Notes
 
 
 
