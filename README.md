@@ -125,8 +125,7 @@ Here is the Login Screen using Microsoft Identity. I applied a bootstrap card be
 
 ![Home Display](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/HomeScreenDisplay.PNG)
 Here is the home screen display where you have multiple tabs to choose from. My Activity is this cuurent page, Profile will take you to a profile page,
-Calorie Calculator was not implemented, however it will rake you to a view to put in your height, weight, age, gender, activity level, to calculate your
-caloric intake. Add a Food allows you to add a new food to the table. this functionality still needs to be tied into the master food database so it adds it with the rest of the preloaded foods. Search for food tab will take you to a page where you can search the master food table for pre loaded foods and add them to your diary. this page is very slow to load and still has some bugs. 
+Calorie Calculator was not implemented, however it was planned to take you to a page to put in your height, weight, age, gender, activity level to calculate yourcaloric intake. Add a Food allows you to add a new food to the table. this functionality still needs to be tied into the master food database so it adds it with the rest of the preloaded foods. Search for food tab will take you to a page where you can search the master food table for pre loaded foods and add them to your diary. this page is very slow to load and still has some bugs. 
 
 ![Profile](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/Profile.PNG)
 
