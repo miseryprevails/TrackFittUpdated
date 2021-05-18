@@ -135,7 +135,7 @@ Calorie Calculator was not implemented, however it was planned to take you to a 
 ![Search Food](https://github.com/miseryprevails/TrackFittUpdated/blob/master/TRACKFITT%20PHOTOS/SearchThePreLoadedFoodTable.PNG)
 
 
-## Final Notes
+## Conclusion
 
 ### What was done right
 I think the foundation of this application is heading in the right direction. alot of the pages are still CRUD but as I continue to learn I will add the missing pieces of functionality. 
