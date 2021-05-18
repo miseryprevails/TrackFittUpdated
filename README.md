@@ -137,16 +137,16 @@ Calorie Calculator was not implemented, however it was planned to take you to a 
 ## Final Notes
 
 ### What was done right
-
+I think the foundation of this application is heading in the right direction. alot of the pages are still CRUD but as I continue to learn I will add the missing pieces of functionality. 
 
 ### What was done wrong
-
+Going into this project I had a vision in mind that was comparible to an already existing application named MyFitnessPal, which is widely used today. I wanted to create a product that resembled it in a way with my own spin on things, But im sure that creating MyFitnessPal was a group effort and I think I tried to add to much functionality to my application and as a result, it is missing alot of the cruical pieces to function as it should. 
 
 ### Where I was lucky
-
+After having a meltdown with GitHub Desktop, I lost my whole repository and had to rebuild it, and my project would not load. I was able to find out that the cause was because the project was moved out of a previous folder and rebuilt a new updated repository and reuploaded the project and was smooth sailing from there. I was scared that I lost my project that day. 
 
 ### Changes I would have made
-
+I would have cut alot of functionality away. It would of been an application with 2 options. A calculator to calculate your caloric intake, and then a diary like page where you add all your food in yourself. I would of been left with more time to really create an amazing application.
 
 
 
