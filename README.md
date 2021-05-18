@@ -10,7 +10,7 @@ TrackkFitt is a Macronutrient tracking application That calculates your caloric 
 * [Requirements & Test Results](https://github.com/miseryprevails/TrackFittUpdated#requirementstest-result)
 * [Prototype](https://github.com/miseryprevails/TrackFittUpdated#prototype)
 * [Application Walkthrough](https://github.com/miseryprevails/TrackFittUpdated/blob/master/README.md#application-walkthrough)
-* [Final Notes](https://github.com/miseryprevails/TrackFittUpdated/blob/master/README.md#final-notes)
+* [Conclusion](https://github.com/miseryprevails/TrackFittUpdated/blob/master/README.md#conclusion)
 
 
 ### User Stories
